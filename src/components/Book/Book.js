@@ -8,7 +8,6 @@ const Book = (props) => {
       <img className={styles.image} src={book?.cover_image} alt={book?.title} />
       <figcaption data-testid="book-title">{book?.title}</figcaption>
       <button
-        role="btn-reading-status"
         data-testid="btn-reading-status"
         className={`${styles['btn']} ${
           inReadingList ? styles.btn__add : styles.btn__remove

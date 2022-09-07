@@ -12,9 +12,8 @@ describe('BookList Component', () => {
   });
   it('should call updateReadingList function on button click', () => {
     const updateReadingListMocked = jest.fn();
-    // const book = { id: 1, title: 'Sample Test' };
     render(<Book updateReadingList={updateReadingListMocked} />);
-    const btnEl = screen.getByRole('btn-reading-status');
+    const btnEl = screen.getByTestId('btn-reading-status');
     expect(btnEl).toHaveTextContent('Add');
     fireEvent.click(btnEl);
     expect(updateReadingListMocked).toHaveBeenCalled();
