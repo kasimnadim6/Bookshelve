@@ -18,14 +18,174 @@ exports[`BookList Component should have right BookList Snapshot 1`] = `
   <div
     className="book-list"
   >
-    <mock-bookComponent />
-    <mock-bookComponent />
-    <mock-bookComponent />
-    <mock-bookComponent />
-    <mock-bookComponent />
-    <mock-bookComponent />
-    <mock-bookComponent />
-    <mock-bookComponent />
+    <figure
+      className="book"
+    >
+      <img
+        alt="Norwegian Wood"
+        className="image"
+        src="http://t1.gstatic.com/images?q=tbn:ANd9GcQvJJDi2mzwg9v_PlmKYL31gXIz0kvAObJak7DVFPcD_mJTIyec"
+      />
+      <figcaption
+        data-testid="book-title"
+      >
+        Norwegian Wood
+      </figcaption>
+      <button
+        className="btn btn__remove"
+        data-testid="btn-reading-status"
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </figure>
+    <figure
+      className="book"
+    >
+      <img
+        alt="Kafka on the Shore"
+        className="image"
+        src="http://t0.gstatic.com/images?q=tbn:ANd9GcRHFU_j93PPsbQGqoaZJnHH6-Emk_sIxG823SkoRTL0nvdEP41f"
+      />
+      <figcaption
+        data-testid="book-title"
+      >
+        Kafka on the Shore
+      </figcaption>
+      <button
+        className="btn btn__remove"
+        data-testid="btn-reading-status"
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </figure>
+    <figure
+      className="book"
+    >
+      <img
+        alt="After Dark"
+        className="image"
+        src="http://t3.gstatic.com/images?q=tbn:ANd9GcQBMNA8A19vQpNY4bkgadsLhiRUFqBKwKAA6ANrw8VEtOiPrYQJ"
+      />
+      <figcaption
+        data-testid="book-title"
+      >
+        After Dark
+      </figcaption>
+      <button
+        className="btn btn__remove"
+        data-testid="btn-reading-status"
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </figure>
+    <figure
+      className="book"
+    >
+      <img
+        alt="1Q84"
+        className="image"
+        src="http://t0.gstatic.com/images?q=tbn:ANd9GcTBQZSg-b2LFkLlt9fWndS1w8SONabDZBHf0dtdb3-bqcuKxduL"
+      />
+      <figcaption
+        data-testid="book-title"
+      >
+        1Q84
+      </figcaption>
+      <button
+        className="btn btn__remove"
+        data-testid="btn-reading-status"
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </figure>
+    <figure
+      className="book"
+    >
+      <img
+        alt="Norwegian Wood"
+        className="image"
+        src="http://t1.gstatic.com/images?q=tbn:ANd9GcQvJJDi2mzwg9v_PlmKYL31gXIz0kvAObJak7DVFPcD_mJTIyec"
+      />
+      <figcaption
+        data-testid="book-title"
+      >
+        Norwegian Wood
+      </figcaption>
+      <button
+        className="btn btn__remove"
+        data-testid="btn-reading-status"
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </figure>
+    <figure
+      className="book"
+    >
+      <img
+        alt="Norwegian Wood"
+        className="image"
+        src="http://t1.gstatic.com/images?q=tbn:ANd9GcQvJJDi2mzwg9v_PlmKYL31gXIz0kvAObJak7DVFPcD_mJTIyec"
+      />
+      <figcaption
+        data-testid="book-title"
+      >
+        Norwegian Wood
+      </figcaption>
+      <button
+        className="btn btn__remove"
+        data-testid="btn-reading-status"
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </figure>
+    <figure
+      className="book"
+    >
+      <img
+        alt="Norwegian Wood"
+        className="image"
+        src="http://t0.gstatic.com/images?q=tbn:ANd9GcTBQZSg-b2LFkLlt9fWndS1w8SONabDZBHf0dtdb3-bqcuKxduL"
+      />
+      <figcaption
+        data-testid="book-title"
+      >
+        Norwegian Wood
+      </figcaption>
+      <button
+        className="btn btn__remove"
+        data-testid="btn-reading-status"
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </figure>
+    <figure
+      className="book"
+    >
+      <img
+        alt="Norwegian Wood"
+        className="image"
+        src="http://t1.gstatic.com/images?q=tbn:ANd9GcQvJJDi2mzwg9v_PlmKYL31gXIz0kvAObJak7DVFPcD_mJTIyec"
+      />
+      <figcaption
+        data-testid="book-title"
+      >
+        Norwegian Wood
+      </figcaption>
+      <button
+        className="btn btn__remove"
+        data-testid="btn-reading-status"
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </figure>
   </div>
   <p
     className="title"
