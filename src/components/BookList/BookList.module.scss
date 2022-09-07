@@ -1,0 +1,22 @@
+.book-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  .header {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.4rem;
+  }
+  .title {
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    color: salmon;
+  }
+  .book-list {
+    display: flex;
+    overflow-x: auto;
+  }
+  .readingList {
+    margin-top: 2rem;
+  }
+}

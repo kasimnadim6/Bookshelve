@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookList Component should have right BookList Snapshot 1`] = `
+<section
+  className="book-list-container"
+>
+  <h1
+    className="header"
+    data-testid="header"
+  >
+    Welcome to My Favorite Book Portal
+  </h1>
+  <h2
+    className="title"
+  >
+    Book Shelve
+  </h2>
+  <div
+    className="book-list"
+  >
+    <mock-bookComponent />
+    <mock-bookComponent />
+    <mock-bookComponent />
+    <mock-bookComponent />
+    <mock-bookComponent />
+    <mock-bookComponent />
+    <mock-bookComponent />
+    <mock-bookComponent />
+  </div>
+  <p
+    className="title"
+    data-testid="no-reading-list"
+    style={
+      Object {
+        "marginTop": "5rem",
+        "textAlign": "center",
+      }
+    }
+  >
+    Reading List Is Empty
+  </p>
+</section>
+`;
